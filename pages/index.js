@@ -33,6 +33,13 @@ export default function Home() {
           <ModelsLink />
         </div>
       </div>
+      <div className={styles.footer}>
+        <div className={styles.footerItem}>Original Text by Mike Corrao</div>
+        <div className={styles.footerItem}>
+          Digital Translation by Nick Raap
+        </div>
+        <div className={styles.footerItem}>Web Design by Nick Raap</div>
+      </div>
     </>
   );
 }
