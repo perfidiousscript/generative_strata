@@ -15,9 +15,15 @@ a {
   box-sizing: border-box;
   background-color: #222323;
   color: #f0f6f0;
+  font-family: Happy-Times;
 }
 
 @font-face {
   font-family: Avara-Black;
-  src: (../Avara-Black.otf);
+  src: url(/fonts/Avara-Black.otf);
+}
+
+@font-face {
+  font-family: Happy-Times;
+  src: url(/fonts/happy-times-NG_regular_master.otf);
 }
