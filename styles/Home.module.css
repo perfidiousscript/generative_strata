@@ -124,4 +124,9 @@
 .homeHeader {
   font-family: Avara-Black;
   font-size: 8em;
+  padding: 0 0 7% 0;
+}
+
+.homeText {
+  font-size: x-large;
 }
