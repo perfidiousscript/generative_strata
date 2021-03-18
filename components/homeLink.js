@@ -7,7 +7,7 @@ export default function HomeLink() {
   return (
     <>
       <Link href="/">
-        <Image src="/../public/icons/icon.png" width={50} height={50} />
+        <Image src="/icons/icon.png" width={50} height={50} />
       </Link>
     </>
   );

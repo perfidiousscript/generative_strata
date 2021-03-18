@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <div className="container">
-        <div className="homeHeader col-md-8 offset-md-2">GENERATIVE STRATA</div>
+        <div className="col-md-8 offset-md-2 homeHeader">GENERATIVE STRATA</div>
       </div>
       <div className="pageBody row">
         <div className="col-md-1">
