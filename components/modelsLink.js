@@ -7,7 +7,7 @@ export default function ModelsLink() {
   return (
     <>
       <Link href="/models">
-        <Image src="/icons/icon2.png" width={50} height={50} />
+        <Image src="/icons/icon2.png" width={50} height={75} />
       </Link>
     </>
   );
