@@ -16,3 +16,8 @@ a {
   background-color: #222323;
   color: #f0f6f0;
 }
+
+@font-face {
+  font-family: Avara-Black;
+  src: (../Avara-Black.otf);
+}
