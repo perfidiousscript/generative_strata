@@ -1,0 +1,18 @@
+.leftChevron {
+  font-family: "Avara-Black";
+  font-size: 108pt;
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  background: none;
+}
+
+.rightChevron {
+  font-family: "Avara-Black";
+  font-size: 108pt;
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  left: 87%;
+  background: none;
+}
