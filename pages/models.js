@@ -1,6 +1,13 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import Header from "../components/pageHeader.js";
+import HomeLink from "../components/homeLink.js";
+import BookLink from "../components/bookLink.js";
+import styles from "../styles/Model.module.css";
 
-export default function Models() {
-  return <p>Models</p>;
+export default function Book() {
+  return (
+    <>
+      <Header leftIcon={<HomeLink />} rightIcon={<BookLink />} />
+    </>
+  );
 }
