@@ -1,5 +1,4 @@
 import Head from "next/head";
-import HomeLink from "../components/homeLink.js";
 import BookLink from "../components/bookLink.js";
 import ModelsLink from "../components/modelsLink.js";
 import styles from "../styles/Home.module.css";
@@ -15,7 +14,7 @@ export default function Home() {
         </div>
       </div>
       <div className="row">
-        <div className="offset-md-1 col-md-1">
+        <div className="col-md-2">
           <BookLink />
         </div>
         <div className="col-md-8">
