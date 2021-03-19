@@ -20,10 +20,10 @@ a {
 
 @font-face {
   font-family: Avara-Black;
-  src: url(/fonts/Avara-Black.otf);
+  src: url(./fonts/Avara-Black.otf);
 }
 
 @font-face {
   font-family: Happy-Times;
-  src: url(/fonts/happy-times-NG_regular_master.otf);
+  src: url(./fonts/happy-times-NG_regular_master.otf);
 }
