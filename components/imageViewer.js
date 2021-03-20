@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Glyphicon } from "react-bootstrap";
 import styles from "../styles/ImageViewer.module.css";
 const imageSrcArray = [
@@ -15,7 +15,27 @@ const imageSrcArray = [
 ];
 
 export default function ImageViewer() {
-  const [imageSrc, setImageSrc] = useState(imageSrcArray[0]);
+  const [imageIndex, setImageIndex] = useState(0);
+  const [imageSrc, setImageSrc] = useState(imageSrcArray[imageIndex]);
+
+  function changeImage(val) {
+    let imageSrcIndex = imageIndex;
+
+    setImageIndex((imageSrcIndex += val) % imageSrcArray.length);
+    setImageSrc(imageSrcArray[imageIndex]);
+  }
+
+  function advanceImage() {
+    changeImage(1);
+  }
+
+  function reverseImage() {
+    if (imageIndex === 0) {
+      setImageIndex(imageSrcArray.length - 1);
+    } else {
+      changeImage(-1);
+    }
+  }
 
   return (
     <div className="offset-md-2 col-md-8">
@@ -25,8 +45,12 @@ export default function ImageViewer() {
         width={800}
         height={600}
       />
-      <div className={styles.leftChevron}>&lt;</div>
-      <div className={styles.rightChevron}>&gt;</div>
+      <div className={styles.leftChevron} onClick={reverseImage}>
+        &lt;
+      </div>
+      <div className={styles.rightChevron} onClick={advanceImage}>
+        &gt;
+      </div>
     </div>
   );
 }
