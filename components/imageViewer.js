@@ -16,13 +16,11 @@ const imageSrcArray = [
 
 export default function ImageViewer() {
   const [imageIndex, setImageIndex] = useState(0);
-  const [imageSrc, setImageSrc] = useState(imageSrcArray[imageIndex]);
 
   function changeImage(val) {
     let imageSrcIndex = imageIndex;
 
     setImageIndex((imageSrcIndex += val) % imageSrcArray.length);
-    setImageSrc(imageSrcArray[imageIndex]);
   }
 
   function advanceImage() {
@@ -40,7 +38,7 @@ export default function ImageViewer() {
   return (
     <div className="offset-md-2 col-md-8">
       <Image
-        src={`/images/${imageSrc}.png`}
+        src={`/images/${imageSrcArray[imageIndex]}.png`}
         layout="intrinsic"
         width={800}
         height={600}
