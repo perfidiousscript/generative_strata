@@ -9,7 +9,11 @@ export default function Home() {
       <div className="row">
         <div className="container">
           <div className="offset-md-1 col-md-11">
-            <div className={styles.homeHeader}>GENERATIVE STRATA</div>
+            <div className={styles.homeHeader}>
+              <p>GENER</p>
+              <p>ATIVE</p>
+              <p>STRATA</p>
+            </div>
           </div>
         </div>
       </div>
@@ -23,7 +27,7 @@ export default function Home() {
             set of basic probability functions, printed as a physical work, and
             later translated into a series of virtual objects. Each stage of
             Generative Strata operates within the random expanse of the
-            machine’s will, attempting to experience the full po- tency of its
+            machine’s will, attempting to experience the full potency of its
             medium. Documentation of its two primary modes are recorded here for
             public display.
           </p>
@@ -37,7 +41,7 @@ export default function Home() {
         <div className={styles.footerItem}>
           Digital Translation by Nick Raap
         </div>
-        <div className={styles.footerItem}>Web Design by Nick Raap</div>
+        <div className={styles.footerItem}>Web Design by Samuel Moss</div>
       </div>
     </>
   );

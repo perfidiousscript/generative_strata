@@ -20,7 +20,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  margin: 7% 0 3% 0;
+  margin: 20% 0 3% 0;
 }
 
 .footer img {
@@ -120,13 +120,17 @@
 }
 
 .homeHeader {
+  padding: 0 0 7% 0;
+}
+
+.homeHeader p {
   font-family: Avara-Black;
   font-size: 8em;
-  padding: 0 0 7% 0;
 }
 
 .homeText {
   font-size: x-large;
+  text-align: justify;
 }
 
 .footerItem {
