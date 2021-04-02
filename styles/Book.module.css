@@ -1,3 +1,7 @@
+.imageNote {
+  text-align: center;
+}
+
 .essay {
   width: 66.67%;
   padding: 7% 1%;
@@ -5,9 +9,11 @@
 }
 
 .essayTitle {
+  font-family: "Avara-Black";
   margin: 4% 0;
   font-size: 2em;
 }
 
 .essayBody {
+  line-height: 2;
 }

@@ -36,18 +36,20 @@ export default function ImageViewer() {
   }
 
   return (
-    <div className="offset-md-2 col-md-8">
-      <Image
-        src={`/images/${imageSrcArray[imageIndex]}.png`}
-        layout="intrinsic"
-        width={800}
-        height={600}
-      />
-      <div className={styles.leftChevron} onClick={reverseImage}>
-        &lt;
-      </div>
-      <div className={styles.rightChevron} onClick={advanceImage}>
-        &gt;
+    <div className="container">
+      <div className="offset-md-2 col-md-8">
+        <Image
+          src={`/images/${imageSrcArray[imageIndex]}.png`}
+          layout="intrinsic"
+          width={800}
+          height={600}
+        />
+        <div className={styles.leftChevron} onClick={reverseImage}>
+          &lt;
+        </div>
+        <div className={styles.rightChevron} onClick={advanceImage}>
+          &gt;
+        </div>
       </div>
     </div>
   );

@@ -27,3 +27,8 @@ a {
   font-family: Happy-Times;
   src: url(./fonts/happy-times-NG_regular_master.otf);
 }
+
+@font-face {
+  font-family: Megrin;
+  src: url(./fonts/Megrim.ttf);
+}

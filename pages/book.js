@@ -10,35 +10,42 @@ export default function Book() {
     <>
       <Header leftIcon={<HomeLink />} rightIcon={<ModelsLink />} />
       <ImageViewer />
+      <div className={styles.imageNote}>
+        <i>
+          The images above provide a record of Generative Strata's physical
+          iteration as a 452-page book.
+        </i>
+      </div>
       <div className={styles.essay}>
         <div className={styles.essayTitle}>
           Prose As Architecture (Mike Corrao)
         </div>
         <div className={styles.essayBody}>
           <p>
-            I write this introduction as a critic writes about a book that is
-            not their own. Because I did not write this book. I created the
-            scaffolding--the program--that wrote this book. It is a very simple
-            program. Essentially it is just a set of alternating word banks each
-            pulling from a few hundred different possible words and placing them
-            in whichever order it desires. Initially the program lacked any
-            punctuation. It alternated between root words and connecting words.
-            The root words primarily consisted of nouns and occasionally
-            adjectives. Terms like: zone, body, meat, text, etc. As well as more
-            complex, hyphenated terms: archaic prosthetic,
-            organic-without-organs, abdominal-zone. Connecting words primarily
-            consisted of prepositions, conjunctions, and verbs. Simple terms:
-            is, and, was, are, and so on. Along with more specific verbs like:
-            metabolizing, becoming, rearranging, assembling. The primary
-            function of the connecting words is to hold the root words together
-            and to form unexpected connections between them. In later stages, I
-            added a third word bank, the symbol category: &, +, ?, !. Where the
-            first two variables are set to alternate back and forth, the symbol
-            variable has the potential to show up after any root word. Within
-            each of these word banks, all terms are set to have equal likelihood
-            with two exceptions. In the connecting word category, is is set to
-            appear three times more often. And in the symbol category, periods
-            and exclamation points are set to be three times more likely.
+            Generative Strata is a work of immaculate conception. Although my
+            actions led to the processes that created the text, I do not view
+            myself as its author. I created the scaffolding--the program--that
+            wrote this book. It is a very simple program. Essentially it is just
+            a set of alternating word banks each pulling from a few hundred
+            different possible words and placing them in whichever order it
+            desires. Initially the program lacked any punctuation. It alternated
+            between root words and connecting words. The root words primarily
+            consisted of nouns and occasionally adjectives. Terms like: zone,
+            body, meat, text, etc. As well as more complex, hyphenated terms:
+            archaic prosthetic, organic-without-organs, abdominal-zone.
+            Connecting words primarily consisted of prepositions, conjunctions,
+            and verbs. Simple terms: is, and, was, are, and so on. Along with
+            more specific verbs like: metabolizing, becoming, rearranging,
+            assembling. The primary function of the connecting words is to hold
+            the root words together and to form unexpected connections between
+            them. In later stages, I added a third word bank, the symbol
+            category: &, +, ?, !. Where the first two variables are set to
+            alternate back and forth, the symbol variable has the potential to
+            show up after any root word. Within each of these word banks, all
+            terms are set to have equal likelihood with two exceptions. In the
+            connecting word category, is is set to appear three times more
+            often. And in the symbol category, periods and exclamation points
+            are set to be three times more likely.
             <br />
             &emsp; All of this was done in a program called Twine. Twine is
             primarily used to make choose-your-own-adventure games. It allows
