@@ -46,24 +46,25 @@ export default function Book() {
             connecting word category, is is set to appear three times more
             often. And in the symbol category, periods and exclamation points
             are set to be three times more likely.
-            <br />
-            &emsp; All of this was done in a program called Twine. Twine is
-            primarily used to make choose-your-own-adventure games. It allows
-            artists to use a very approachable interface to assemble these
-            programs in a web of small coded cells. Generative Strata only
-            required one of these cells, but the contents of the cell were
-            massive. Not having a background in coding, I used Twine because I
-            was familiar with it from interactive projects I had done in the
-            past. Part of me very much enjoys misusing technology. It allows for
-            this somewhat arcane persona. Manipulating the unknown in order to
-            create something that is not entirely my own. The drawback of this
-            is that I was unable to really optimize the program. It was only
-            able to render about one thousand words at a time. I copied these
-            batches into a word document until I was satisfied with the amount
-            of material I had to work with, then I set the page dimensions to
-            nine inches by nine inches and began formating. The text is split
-            into three sections, Major, Media, and Minor which are distinguished
-            by their vastly differing layouts.
+          </p>
+          <p>
+            All of this was done in a program called Twine. Twine is primarily
+            used to make choose-your-own-adventure games. It allows artists to
+            use a very approachable interface to assemble these programs in a
+            web of small coded cells. Generative Strata only required one of
+            these cells, but the contents of the cell were massive. Not having a
+            background in coding, I used Twine because I was familiar with it
+            from interactive projects I had done in the past. Part of me very
+            much enjoys misusing technology. It allows for this somewhat arcane
+            persona. Manipulating the unknown in order to create something that
+            is not entirely my own. The drawback of this is that I was unable to
+            really optimize the program. It was only able to render about one
+            thousand words at a time. I copied these batches into a word
+            document until I was satisfied with the amount of material I had to
+            work with, then I set the page dimensions to nine inches by nine
+            inches and began formating. The text is split into three sections,
+            Major, Media, and Minor which are distinguished by their vastly
+            differing layouts.
           </p>
           <p>
             The text is not confined by its ability to communicate with you, or
@@ -77,13 +78,14 @@ export default function Book() {
             of what is and is not text. To ask what defines the text as itself
             and what mutations it can endure before becoming something else
             entirely.
-            <br />
-            &emsp; Part of my intention in discussing how the program was made
-            was to reveal that it is not as complicated as one might assume.
-            There is no artificial intelligence guiding Generative Strata. I did
-            not want to compete with another consciousness. The occult nature of
-            the text demands an enigmatic process. I wanted the construction of
-            this object to be guided by functions that I myself do not fully
+          </p>
+          <p>
+            Part of my intention in discussing how the program was made was to
+            reveal that it is not as complicated as one might assume. There is
+            no artificial intelligence guiding Generative Strata. I did not want
+            to compete with another consciousness. The occult nature of the text
+            demands an enigmatic process. I wanted the construction of this
+            object to be guided by functions that I myself do not fully
             understand, that I cannot predict. That do not act with traceable
             intent. The philosophies of the text are the product of the random
             nothingness of the abstract. Whatever virtual machine churns behind
@@ -97,69 +99,72 @@ export default function Book() {
             anyone to read the entirety of this book. I have not read the
             entirety of this book. Instead I think that we might find other uses
             in the text.
-            <br />
-            &emsp;<i>Generative Strata</i> in one regard is a tool for
-            bibliomancy. For the user to pick a section and then choose a random
-            page within it. To read for as long as they would like and to
-            extract whatever information they think / know is hidden within. The
-            sections of Major, Media, and Minor are intended for their own
-            individual uses. Major for desires of a longue duree. For ambient or
-            meditative journeys through the text or the self. My encounters thus
-            far with Major have been somewhat hypnagogic. There is a kind of
-            Tarkovskyan dreaminess to the experience. Like you are sleeping
-            while awake. Media is more intended for brief sessions. When the
-            user is looking for more focused sets of information. Hence the
-            thinner columns and the introduction of fragmentation within each
-            column. Minor is the most complex section. For encounters ranging
-            from aphorism to text-wall. The true text of this section (the
-            non-strikethrough text) is wide and often short. The false text (the
-            strikethrough text) stays consistent as a thin column along the
-            left-hand side. Noting the potentialities of a deceit, or of a
-            facade. Moments of reality eradicated by the fantasy-screen. Minor
-            can be read / engaged with as a set of warnings and encouragements,
-            or as a revelation of the shallow and fake nature of language.
-            Beyond its bibliomantic qualities / uses, we might also view
-            Generative Strata as an architectural object. A purely aesthetic
-            text made to be looked at rather than read. Its function is to be
-            moved through. The lexicon becomes a list of building materials.
-            Each sentence a different display of their possible arrangements. In
-            this regard, Major, Media, and Minor become variations in design and
-            layout. Different structures in the Generative Strata complex, or
-            different levels of the Ballardian skyscraper. Each its own
-            micronation, built from the same materials, but governed by
-            different laws. The longue duree of Major then becomes labyrinthine.
-            Untrustworthy and inwardly complexifying. An endlessly convoluted
-            network of hallways, with misleading epitaphs and unexpected
-            dead-ends. The user might lose their bearings and attempt to double
-            back, return to a previous sentence, and march forward again. The
-            rigid structure of this section allows the user to enter an ambient
-            zone. To gloss over the text and not really read it, to just scan
-            each line. I think this kind of reading tends to be seen as a
-            mistake or as useless (a waste of a book), but I think that there is
-            a value in it. The text becomes a psychogeographic tool. It allows
-            you to wander without repercussions. Where you can retreat into the
-            inner landscape and let the distant whispering language guide your
-            dreams.
-            <br />
-            &emsp; Counter to this is the fragmentary nature of Media. Where
-            Major is a seemingly endless labyrinth, Media is a network of
-            floating islands. The blankness of the white page becomes more
-            visible here, peeking through the gaps in the text. Open sky behind
-            crumbling columns. The micro-structures that exist on each page then
-            become smaller and more comprehensible. Their materials are easier
-            to locate / isolate. The longue duree of Major is replaced with the
-            frantic leaping of the eye from one block to another. Brief stints
-            on each platform. But there is not only design in that which we can
-            see. No space in Generative Strata is truly empty. The text of Media
-            remains unbroken. Only the traits have changed. Portions of the text
-            are not removed, they are recolored. At the end of each cluster, the
-            text turns white, then at the next island, it turns black again.
-            Language hides in each threshold--unreadable. The fragmented way
-            that you read Media is not the fault of the text, it is the fault of
-            the user--myself included.
-            <br />
-            &emsp; Minor further complexifies this process. The text is broken
-            into two columns, one thin one wide. The thin column is completely
+          </p>
+          <p>
+            <i>Generative Strata</i> in one regard is a tool for bibliomancy.
+            For the user to pick a section and then choose a random page within
+            it. To read for as long as they would like and to extract whatever
+            information they think / know is hidden within. The sections of
+            Major, Media, and Minor are intended for their own individual uses.
+            Major for desires of a longue duree. For ambient or meditative
+            journeys through the text or the self. My encounters thus far with
+            Major have been somewhat hypnagogic. There is a kind of Tarkovskyan
+            dreaminess to the experience. Like you are sleeping while awake.
+            Media is more intended for brief sessions. When the user is looking
+            for more focused sets of information. Hence the thinner columns and
+            the introduction of fragmentation within each column. Minor is the
+            most complex section. For encounters ranging from aphorism to
+            text-wall. The true text of this section (the non-strikethrough
+            text) is wide and often short. The false text (the strikethrough
+            text) stays consistent as a thin column along the left-hand side.
+            Noting the potentialities of a deceit, or of a facade. Moments of
+            reality eradicated by the fantasy-screen. Minor can be read /
+            engaged with as a set of warnings and encouragements, or as a
+            revelation of the shallow and fake nature of language. Beyond its
+            bibliomantic qualities / uses, we might also view Generative Strata
+            as an architectural object. A purely aesthetic text made to be
+            looked at rather than read. Its function is to be moved through. The
+            lexicon becomes a list of building materials. Each sentence a
+            different display of their possible arrangements. In this regard,
+            Major, Media, and Minor become variations in design and layout.
+            Different structures in the Generative Strata complex, or different
+            levels of the Ballardian skyscraper. Each its own micronation, built
+            from the same materials, but governed by different laws. The longue
+            duree of Major then becomes labyrinthine. Untrustworthy and inwardly
+            complexifying. An endlessly convoluted network of hallways, with
+            misleading epitaphs and unexpected dead-ends. The user might lose
+            their bearings and attempt to double back, return to a previous
+            sentence, and march forward again. The rigid structure of this
+            section allows the user to enter an ambient zone. To gloss over the
+            text and not really read it, to just scan each line. I think this
+            kind of reading tends to be seen as a mistake or as useless (a waste
+            of a book), but I think that there is a value in it. The text
+            becomes a psychogeographic tool. It allows you to wander without
+            repercussions. Where you can retreat into the inner landscape and
+            let the distant whispering language guide your dreams.
+          </p>
+          <p>
+            Counter to this is the fragmentary nature of Media. Where Major is a
+            seemingly endless labyrinth, Media is a network of floating islands.
+            The blankness of the white page becomes more visible here, peeking
+            through the gaps in the text. Open sky behind crumbling columns. The
+            micro-structures that exist on each page then become smaller and
+            more comprehensible. Their materials are easier to locate / isolate.
+            The longue duree of Major is replaced with the frantic leaping of
+            the eye from one block to another. Brief stints on each platform.
+            But there is not only design in that which we can see. No space in
+            Generative Strata is truly empty. The text of Media remains
+            unbroken. Only the traits have changed. Portions of the text are not
+            removed, they are recolored. At the end of each cluster, the text
+            turns white, then at the next island, it turns black again. Language
+            hides in each threshold--unreadable. The fragmented way that you
+            read Media is not the fault of the text, it is the fault of the
+            user--myself included.
+          </p>
+          <p>
+            {" "}
+            Minor further complexifies this process. The text is broken into two
+            columns, one thin one wide. The thin column is completely
             struck-through. The wide column is broken into short paragraphs,
             typically three or four lines long--again broken by an unreadable
             text. The deceptive nature of Generative Strata is most prevalent

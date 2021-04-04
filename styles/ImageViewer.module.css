@@ -1,3 +1,6 @@
+.imageViewer div:first-child {
+  border: 1px solid lightgrey;
+}
 .leftChevron {
   font-family: "Avara-Black";
   font-size: 108pt;
@@ -14,7 +17,7 @@
   position: absolute;
   z-index: 2;
   top: 30%;
-  left: 87%;
+  right: 2%;
   background: none;
   cursor: pointer;
 }

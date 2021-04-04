@@ -22,7 +22,7 @@ export default function Home() {
           <div className="col-md-2">
             <BookLink />
           </div>
-          <div className="col-md-7">
+          <div className="col-md-8">
             <p className={styles.homeText}>
               Generative Strata is a machine written text first created using a
               set of basic probability functions, printed as a physical work,
@@ -33,7 +33,7 @@ export default function Home() {
               for public display.
             </p>
           </div>
-          <div className="offset-md-1 col-md-2">
+          <div className="col-md-2">
             <ModelsLink />
           </div>
         </div>
