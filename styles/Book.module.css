@@ -3,9 +3,6 @@
 }
 
 .essay {
-  width: 66.67%;
-  padding: 7% 1%;
-  margin: auto;
 }
 
 .essayTitle {
@@ -17,4 +14,8 @@
 .essayBody {
   line-height: 2;
   font-size: large;
+}
+
+.essayBody p {
+  margin-bottom: 2rem;
 }

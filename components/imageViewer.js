@@ -12,6 +12,8 @@ const imageSrcArray = [
   "MEDIA_2",
   "MINOR_1",
   "MINOR_2",
+  "MEDIA_NEW",
+  "MINOR_NEW",
 ];
 
 export default function ImageViewer() {
