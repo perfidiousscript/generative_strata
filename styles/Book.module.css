@@ -5,6 +5,21 @@
 .essay {
 }
 
+.downloadLink {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  width: 52%;
+  margin: 4% auto;
+  background-color: #f0f6f0;
+}
+
+.downloadLink a {
+  font-family: "Megrim";
+  font-size: 2em;
+  color: #222323;
+}
+
 .essayTitle {
   font-family: "Megrim";
   margin: 4% 0;

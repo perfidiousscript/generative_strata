@@ -16,6 +16,11 @@ export default function Book() {
           iteration as a 452-page book.
         </i>
       </div>
+      <div className={styles.downloadLink}>
+        <a href="/texts/GENERATIVE_STRATA.pdf" download>
+          Download Generative Strata
+        </a>
+      </div>
       <div className="container">
         <div className="col-md-12">
           <div className={styles.essay}>
